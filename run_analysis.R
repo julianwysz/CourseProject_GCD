@@ -59,5 +59,5 @@ groupMean <- function(dataSet){
 }
 
 saveCleanData <- function(filename, dataSet){
-    fwrite(dataSet, filename, row.names=FALSE)
+    write.table(dataSet, filename, row.names=FALSE)
 }

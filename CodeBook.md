@@ -313,5 +313,5 @@ Calculate Mean of features for each subject\_id and activity.
 
 Save clean Data
 
-    saveCleanData("mean_and_std.csv", dataMeanStd)
-    saveCleanData("mean_of_subject_and_activity.csv", greoupedMeans)
+    saveCleanData("mean_and_std.txt", dataMeanStd)
+    saveCleanData("mean_of_subject_and_activity.txt", greoupedMeans)
